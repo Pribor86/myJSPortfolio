@@ -1,0 +1,19 @@
+.body {
+    background-color: white;
+}
+
+#container {
+    background-color: white;
+}
+
+.light-text {
+    color: #eeeeee;
+}
+
+.dark-text {
+    color: #333333;
+}
+
+.div {
+    background-color: gray;
+}

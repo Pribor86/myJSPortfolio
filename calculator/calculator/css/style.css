@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    /* font-synthesis: none; */
+    font-weight: unset;
+}
+
+body {
+    background-color: rgb(186, 233, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(14, 13, 13, 0.3);
+}
+
+.editWide {
+    background-color: transparent;
+    margin-top: 10px;
+    width: 270px;
+    height: 40px;
+    border-width: 3px;
+    font-size: x-large;
+    color: black;
+    border-radius: 10px;
+    text-align: right;
+    cursor: pointer;
+    border-style: outset;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+    border-style: outset;
+    font-size: large;
+    border-width: 3px;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    padding: 0;
+}
+
+.button:hover {
+    background-color: #313632;
+    color: white;
+    -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tableCalc {
+    -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid;
+    border-style: outset;
+    background-color: rgb(211, 211, 228);
+    border-radius: 10px;
+}
+
+.buttonWide {
+    margin: 10px;
+    width: 120px;
+    height: 50px;
+    background-color: rgb(240, 184, 2);
+    border-radius: 10px;
+    border-style: outset;
+    font-size: large;
+    border-width: 3px;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    padding: 0;
+}
+
+.buttonWide:hover {
+    background-color: #313632;
+    color: white;
+    -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonOp {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(240, 184, 2);
+    border-radius: 10px;
+    border-style: outset;
+    font-size: large;
+    border-width: 3px;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    padding: 0;
+}
+
+.buttonOp:hover {
+    background-color: rgb(97, 75, 4);
+    color: white;
+    -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
